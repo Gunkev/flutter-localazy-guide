@@ -10,7 +10,7 @@ guide moves the UI strings into ARB files and connects them to Localazy.
 ## Clone And Run The App
 
 ```powershell
-git clone <starter-repo-url>
+git clone https://github.com/Gunkev/flutter-localazy-guide.git
 cd flutter-demo
 flutter pub get
 flutter run
