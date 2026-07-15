@@ -13,7 +13,7 @@ Clone the repository, install the Flutter dependencies, generate the localizatio
 files, and run the app:
 
 ```powershell
-git clone <full-working-repo-url>
+git clone https://github.com/Gunkev/flutter-localazy-guide.git
 cd flutter-localazy-demo
 flutter pub get
 flutter gen-l10n
