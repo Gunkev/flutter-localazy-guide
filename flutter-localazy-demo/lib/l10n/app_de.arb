@@ -1,0 +1,82 @@
+{
+  "appName": "Maboutik",
+  "@appName": {
+    "description": "Application name shown in the app bar and system title."
+  },
+  "cartItemCount": "{count, plural, =0{Sie haben keine Artikel im Warenkorb} =1{Sie haben 1 Artikel im Warenkorb} other{Sie haben {count} Artikel im Warenkorb}}",
+  "@cartItemCount": {
+    "description": "Cart quantity message shown below the quantity stepper.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "decreaseQuantityTooltip": "Einen Artikel entfernen",
+  "@decreaseQuantityTooltip": {
+    "description": "Tooltip for the button that decreases the product quantity."
+  },
+  "englishLanguage": "Englisch",
+  "@englishLanguage": {
+    "description": "English option shown in the language selector."
+  },
+  "frenchLanguage": "Französisch",
+  "@frenchLanguage": {
+    "description": "French option shown in the language selector."
+  },
+  "germanLanguage": "Deutsch",
+  "@germanLanguage": {
+    "description": "German option shown in the language selector."
+  },
+  "increaseQuantityTooltip": "Einen Artikel hinzufügen",
+  "@increaseQuantityTooltip": {
+    "description": "Tooltip for the button that increases the product quantity."
+  },
+  "languageSelectorLabel": "Sprache",
+  "@languageSelectorLabel": {
+    "description": "Label shown above the language selector."
+  },
+  "loadingMessage": "Maboutik wird geladen",
+  "@loadingMessage": {
+    "description": "Message shown while the demo app is loading."
+  },
+  "nameInputLabel": "Dein Name",
+  "@nameInputLabel": {
+    "description": "Text field label for the user's name."
+  },
+  "namePromptAction": "Weiter",
+  "@namePromptAction": {
+    "description": "Button label used to continue after entering a name."
+  },
+  "namePromptDescription": "Gib deinen Namen ein, um den Shop zu personalisieren.",
+  "@namePromptDescription": {
+    "description": "Description shown in the dialog that asks the user for their name."
+  },
+  "namePromptTitle": "Willkommen bei Maboutik",
+  "@namePromptTitle": {
+    "description": "Title of the dialog that asks the user for their name."
+  },
+  "productDescription": "Kompakte mechanische Tastatur für den täglichen Einsatz.",
+  "@productDescription": {
+    "description": "Short product description shown below the product name."
+  },
+  "productName": "Kabellose Tastatur",
+  "@productName": {
+    "description": "Product name shown in the product card."
+  },
+  "spanishLanguage": "Spanisch",
+  "@spanishLanguage": {
+    "description": "Spanish option shown in the language selector."
+  },
+  "welcomeUser": "Willkommen zurück, {userName}",
+  "@welcomeUser": {
+    "description": "Greeting shown above the product card.",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Maya"
+      }
+    }
+  }
+}

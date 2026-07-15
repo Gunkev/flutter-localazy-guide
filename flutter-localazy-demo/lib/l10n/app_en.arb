@@ -1,0 +1,83 @@
+{
+  "@@locale": "en",
+  "appName": "Maboutik",
+  "@appName": {
+    "description": "Application name shown in the app bar and system title."
+  },
+  "loadingMessage": "Loading Maboutik",
+  "@loadingMessage": {
+    "description": "Message shown while the demo app is loading."
+  },
+  "languageSelectorLabel": "Language",
+  "@languageSelectorLabel": {
+    "description": "Label shown above the language selector."
+  },
+  "englishLanguage": "English",
+  "@englishLanguage": {
+    "description": "English option shown in the language selector."
+  },
+  "frenchLanguage": "French",
+  "@frenchLanguage": {
+    "description": "French option shown in the language selector."
+  },
+  "germanLanguage": "German",
+  "@germanLanguage": {
+    "description": "German option shown in the language selector."
+  },
+  "spanishLanguage": "Spanish",
+  "@spanishLanguage": {
+    "description": "Spanish option shown in the language selector."
+  },
+  "namePromptTitle": "Welcome to Maboutik",
+  "@namePromptTitle": {
+    "description": "Title of the dialog that asks the user for their name."
+  },
+  "namePromptDescription": "Enter your name to personalize the shop.",
+  "@namePromptDescription": {
+    "description": "Description shown in the dialog that asks the user for their name."
+  },
+  "nameInputLabel": "Your name",
+  "@nameInputLabel": {
+    "description": "Text field label for the user's name."
+  },
+  "namePromptAction": "Continue",
+  "@namePromptAction": {
+    "description": "Button label used to continue after entering a name."
+  },
+  "welcomeUser": "Welcome back, {userName}",
+  "@welcomeUser": {
+    "description": "Greeting shown above the product card.",
+    "placeholders": {
+      "userName": {
+        "type": "String",
+        "example": "Maya"
+      }
+    }
+  },
+  "productName": "Wireless Keyboard",
+  "@productName": {
+    "description": "Product name shown in the product card."
+  },
+  "productDescription": "Compact mechanical keyboard for daily work.",
+  "@productDescription": {
+    "description": "Short product description shown below the product name."
+  },
+  "decreaseQuantityTooltip": "Remove one item",
+  "@decreaseQuantityTooltip": {
+    "description": "Tooltip for the button that decreases the product quantity."
+  },
+  "increaseQuantityTooltip": "Add one item",
+  "@increaseQuantityTooltip": {
+    "description": "Tooltip for the button that increases the product quantity."
+  },
+  "cartItemCount": "{count, plural, =0{You have no items in your cart} =1{You have 1 item in your cart} other{You have {count} items in your cart}}",
+  "@cartItemCount": {
+    "description": "Cart quantity message shown below the quantity stepper.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  }
+}
